@@ -1,7 +1,7 @@
 # Terraform working directory
 .terraform/
 
-# Terraform state
+# Terraform state files
 *.tfstate
 *.tfstate.*
 
@@ -12,8 +12,12 @@
 crash.log
 crash.*.log
 
-# Local override files
+# Override files
 override.tf
 override.tf.json
 *_override.tf
 *_override.tf.json
+
+# CLI configuration files
+.terraformrc
+terraform.rc
